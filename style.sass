@@ -1,0 +1,51 @@
+@import 'https://fonts.googleapis.com/css?family=Pavanam'
+
+body
+	background: #dcdcdc
+	margin-top: 40px
+
+.game-container
+	background: #fff
+	width: 600px
+	height: 430px
+	margin: 0 auto
+
+.board
+	width: 600px
+	height: 350px
+
+.cell
+	width: 10px
+	height: 10px
+	border: 1px solid blue
+	float: left
+
+.cell-inactive
+	@extend .cell
+	background: #fff
+	
+.cell-young
+	@extend .cell
+	background: #FAB57F
+
+.cell-old
+	@extend .cell
+	background: #FF8C00
+
+.header
+	width: 600px
+	height: 30px
+	text-align: right
+	background: brown
+	color: #fff
+	padding: 3px
+	font-family: 'Pavanam', sans-serif
+	font-size: x-large
+
+.control
+	padding-right: 5px
+	button
+		margin: 10px
+	h4
+		float: right
+		display: inline

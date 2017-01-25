@@ -1,0 +1,49 @@
+@import 'https://fonts.googleapis.com/css?family=Pavanam';
+body {
+  background: #dcdcdc;
+  margin-top: 40px; }
+
+.game-container {
+  background: #fff;
+  width: 600px;
+  height: 430px;
+  margin: 0 auto; }
+
+.board {
+  width: 600px;
+  height: 350px; }
+
+.cell, .cell-inactive, .cell-young, .cell-old {
+  width: 10px;
+  height: 10px;
+  border: 1px solid blue;
+  float: left; }
+
+.cell-inactive {
+  background: #fff; }
+
+.cell-young {
+  background: #FAB57F; }
+
+.cell-old {
+  background: #FF8C00; }
+
+.header {
+  width: 600px;
+  height: 30px;
+  text-align: right;
+  background: brown;
+  color: #fff;
+  padding: 3px;
+  font-family: "Pavanam", sans-serif;
+  font-size: x-large; }
+
+.control {
+  padding-right: 5px; }
+  .control button {
+    margin: 10px; }
+  .control h4 {
+    float: right;
+    display: inline; }
+
+/*# sourceMappingURL=style.css.map */
